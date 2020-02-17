@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="utf-8">
+    <title>Student Score</title>
+  </head>
+  <body>
+
+
+  <table align='center' id = 'studentTable'>
+    <th>Name</th> <th>Score</th>
+  </table>
+  <br><br><br><br><br><br>
+
+  <table id='statsTable' align='center' >
+    <th>Average</th><th>Lowest</th><th>Highest</th>
+  </table>
+
+  <br><br><br><br><br><br>
+  <h2 align='center'>Add Student</h2><br><br>
+
+  <div id='inputDiv' class="inputDiv">
+    <input type="text" id='addName' placeholder="Student Name">
+    <input type="number" id='addScore' placeholder="Score"> <br><br>
+    <button type="button" onclick='addStudent();'>Add Student</button>
+  </div>
+
+    <script src='src.js'></script>
+  </body>
+</html>
